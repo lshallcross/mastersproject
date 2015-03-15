@@ -86,7 +86,7 @@
 
 
 
-<!-- This is the part of the page that scrolls up. -->
+<!-- Everything goes in here below - fixed, scroll, etc - all of it. -->
 <div id="skrollr-body">
     
     
@@ -94,21 +94,32 @@
         <div id="main-character"
              style="top:100px; width:129px; height:213px; position:fixed; z-index:1000;"
              data-0="background-image:url(assets/images/girl-sample.png);"
-             data-1800="background-image:url(assets/images/boy-sample.png);"
+             data-1900="background-image:url(assets/images/boy-sample.png);"
+             data-4000="background-image:url(assets/images/girl-sample.png);"
         >
         </div>
 
     
         <!-- text at different points. No skrollr, just static text -->
         <h1 style="top:25px; width:100%;" class="center">Exploring Mobile Health Apps</h1>
-        <h2 style="top:350px; max-width:600px; width:100%;" class="center">Let's take a journey at how an explosion of apps caters to every moment of one's life.</h2>
+        <h2 style="top:350px; max-width:600px; width:100%;" class="center">Let's take a journey through the explosion of health and medical apps — and see how they cater to every moment of our lives.</h2>
         <h2 style="top:500px; width:100%;" class="center">Scroll Down</h2>
+        <h2 style="top:800px; transform:translateX(75px)">This is <br>Marie.</h2>
+        <h2 style="top:900px; transform:translateX(75px)">Marie's<br>ear hurts.</h2>
+        <h2 style="top:1000px; transform:translateX(75px)">Marie's<br>mom takes<br>her to the<br>doctor.</h2>
+        <h3 style="top:1525px; transform:translateX(-260px)">Scroll down to<br>learn more from<br>a pediatrician<br>who uses<br>CellScope Oto.</h3>
+        <h2 style="top:2160px; transform:translateX(75px)">SECOND PHASE.</h2>
+
+    
+        <!-- cellscope text block; this stays on top of the person -->
+        <div style="top:1170px; height:300px; width:100%; background-color:#333; color:white;" class="center cover">
+            <h2>App: Cellscope Oto</h2>
+            <h3>When Marie's doctor checks inside her ear<br>using an iPhone, Marie isn't scared.<br>Marie has been around smartphones<br>since she was born.<br><br>Marie's doctor tells her it's like<br>making a movie of her ear.<br>Marie thinks that sounds fun.</h3>
+        </div>
     
     
-        <!-- cellscope text block -->
-        <div style="top:1200px; height:150px; width:100%; background-color:#333; color:white;" class="center cover">
-            <h2>The Cellscope</h2>
-            <h3>An Otoscope for your iPhone</h3>
+        <div style="top:4000px; background-color:#eee; width:100%; height:100px;" class="center cover">
+            <h2>This will appear on top of the person</h2>
         </div>
     
     
@@ -116,18 +127,28 @@
         <img src="assets/images/cellscope.png" alt="cellscope"
             style="position:fixed; top:180px; left:50%; z-index:2000;"
             data-0="display:none;"
-            data-1167="transform:translate(400px, 0px); display:block;"
-            data-1250="transform:translate(50px, 0px);"
+            data-1250="transform:translate(400px, 0px); display:block;"
+            data-1340="transform:translate(50px, 0px);"
             data-1800="display:none;"
         />
     
     
         <!-- clothing change -->
+<!--
         <img src="assets/images/girl-suit-sample.png" alt="suit"
-            style="left:50%; transform:translate3d(-50%, 0px, 0px); z-index:2000;"
+            class="center cover"
             data-0="position:absolute; top:!3500px;"
             data-3293="position:fixed; top:!208px;"
         >
+-->
+    
+    <img src="assets/images/girl-suit-sample.png" alt="clothing for girl"
+         class="center cover"  
+         data-0="position:absolute; top:!5205px;"
+         data-5000="position:fixed; top:!208px;"
+         
+         >
+    
 
 
         <!-- table counter example, no skrollr, just use inline CSS styles. How far from the top do you want it? -->
@@ -142,6 +163,9 @@
                 webkitallowfullscreen mozallowfullscreen allowfullscreen
                 style="top:2000px; transform:translate(-50%, -50%); z-index:4100;"
         ></iframe>
+    
+    
+<!--    <iframe style="top:5000px; width:100%; height:500px;" class="center cover" src="https://player.vimeo.com/video/111256513" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
     
     
         <!-- Frame example -->
